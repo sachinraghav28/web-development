@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css"
+    </head>
+    <body>
+    <div class="container">
+        <center><form autocomplete method="post">
+            <h1> Delivery Address</h1>
+            <input type="text" placeholder="village name " name="village" required><br><br>
+            <input type ="text" placeholder="town/area /colony" name="town" required><br><br>
+            <input type="text" placeholder="city" name ="city" required ><br><br>
+            <input type ="number" placeholder ="pincode" name="pincode" required><br><br>
+            <input type="number" placeholder="mobile number" name ="mobile" required><br><br>
+            <input type="number" placeholder="alternatenmobile number" name ="alternate mobile" required><br><br>
+            <a href="PAYMENT.html"><input type="submit" value="submit">
+        </form></center>
+    </div>
+    </body>
+    <script>
+        script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/410/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+    </script>
+</html>

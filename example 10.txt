@@ -1,0 +1,19 @@
+<html><head>
+    <script>
+    function changeImage() {
+     var image = document.getElementById('myImage');
+     if (image.src.match("bulbon")) {
+     image.src = "download1.jpg";
+     } else {
+     image.src = "download1.jpgf";
+     }
+    }
+    </script>
+    </head>
+    <body>
+    <h1>Click the bulb for ON/OFF</h1>
+    <center><img id="myImage" onclick="changeImage()" src="pic_bulboff.gif" width="100" 
+    height="180">
+    </center>
+    </body>
+    </html>

@@ -1,0 +1,18 @@
+<html><head>
+    <script type="text/javascript">
+    function xyz(){
+    var str=document.getElementById("num").value;
+    var num=parseInt(str);
+    document.getElementById("result").innerHTML="";
+    for(i=1;i<=10;i++){
+    document.getElementById("result").innerHTML+="<tr><td>" + num + "</td><td>*</td><td>" + i + 
+    "</td><td>=</td><td>" + num*i+ "</td></tr>";
+    }}
+    </script>
+    </head>
+    <body>
+    Enter a number<input type=text name=t1 id=num> 
+    <input type=button value="Show Table" onclick=xyz()>
+    <table border=1 id=result>
+    </table>
+    </body></html>

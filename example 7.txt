@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+function facto(){
+var str=document.getElementById("num").value;
+var f=1;
+var num=parseInt(str);
+for(i=num;i>0;i--){
+f=f*i;
+}
+document.getElementById("result").innerHTML="The factorial of "+num+" is "+f;
+}
+</script>
+</head>
+<body>
+Enter a number<input type=text name=t1 id=num> 
+<input type=button value="Find Factorial" onclick=facto()>
+<p id=result></p>
+</body></html>

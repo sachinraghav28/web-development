@@ -1,0 +1,16 @@
+<html>
+<head>
+<script>
+function abc() {
+ document.getElementById("demo").innerHTML = Date();
+}
+</script>
+</head>
+<body>
+<h1>Display current Date</h1>
+<p>Click Date to display current day, date, and time.</p>
+<button type="button" onclick="abc()">Date</button>
+<p id="demo"></p>
+The current date will be displayed above this line.
+</body>
+</html>

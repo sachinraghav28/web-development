@@ -1,0 +1,32 @@
+question:-
+1. what do you mean by oops ?and list its features and give breif discription.
+2. create a php application that ask the iser  to input name ,gender,city and password threw a form and store in a table in a database stored in the server machine(pre-equiste1 . create adatabase 
+2.create a  having the fields attributes username ,gender,city and password.)
+3.what are the different type of array in php? explain eachof them  given an example.
+row:--- tuple
+column:----- attributes
+
+candidate key:-
+an attribute that uniquely define a tuple in a tableis known as candidate key .
+
+
+primary key:-
+an attribute uniquely define in a tuple in a table is known as candidate key . the candidate key chosen by the database administrator (dba) 	to uniquely define a tuple is called primary key.
+1. peimary key attribute value is always unique
+2. primary key attribute valuecan t null
+
+
+
+Question:- 1.create a database named gla .
+           2. move inside a database use.
+                   use gla;
+           3. create a table name detail
+            4.create a table detaile (name varchar(25),
+                                       city varchar(50),
+                                       email varchar(50),
+                                       adhatr varchar(12));
+           5. insert into detail values ('luckey','mathura','luckry @gmail,com','1234');
+           6.display the data 
+                 select*from details .
+
+

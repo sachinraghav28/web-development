@@ -1,0 +1,24 @@
+<html>
+<head>
+<style>
+p
+{
+color:red;
+font-style: italic;
+font-size: 15px;
+}
+</style>
+</head>
+<body>
+<p>JavaScript can change the style of an HTML element:</p>
+<button type="button" onclick="myFunction()">Click Me!</button>
+<p id="demo">This is a demonstration.</p>
+<script>
+function myFunction() { 
+ document.getElementById("demo").style.fontStyle="normal";
+ document.getElementById("demo").style.color="rgb(0,122,85)";
+ document.getElementById("demo").style.fontWeight="bold";
+}
+</script>
+</body>
+</html>

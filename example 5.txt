@@ -1,0 +1,13 @@
+<html>
+<head>
+<script>
+function myTimer() {
+ document.getElementById("demo").innerHTML = Date();
+}
+</script>
+</head>
+<body>
+<button type="button" onclick="setInterval(function(){myTimer()}, 1000);">Start Clock</button>
+<p id="demo"></p>
+</body>
+</html>

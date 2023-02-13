@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>HTML Example</title>
+</head>
+<body>
+    <h1>The submit button</h1>
+	<form action="/my-handling-form-page" method="post">
+	    <div>
+		    <label for="example">User name</label>
+		    <input id="example" type="text" name="text"><br>
+             <label for="example">User name</label>
+		    <input id="example" type="text" name="text">
+	    </div>
+	    <br/>
+	    <!-- Submit button -->
+	    <div>
+		    <input type="submit" value="Submit Form" />
+	    </div>
+	</form>
+</body>
+</html>
