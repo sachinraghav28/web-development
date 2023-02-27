@@ -1,0 +1,18 @@
+Database Requirements:
+
+1. Install MySQL with the port number 3306.
+2. Create a database named webproj
+	=> Create database webproj;
+3. Create a table named details with the fields name, email, mobile and password with email as Primary Key.
+	=> Create table details(name varchar(30), email varchar(50) PRIMARY KEY, 	mobile varchar(10), password varchar(10));
+
+Executing the application
+
+1. Open C Drive (Or the Drive where you have installed XAMPP)
+2. Move to xampp
+3. Move to htdocs
+4. Create a folder with a name of your choice (say myapp)
+5. Copy all php files in the folder.
+6. Start xampp
+7. Open browser and enter the URL: localhost/myapp
+8. Your application will start running now.
